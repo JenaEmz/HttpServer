@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jena/HttpServer/utility/Logger/Logger.cpp
+Logger.h
+/home/jena/HttpServer/utility/Logger/Logger.h
+errno.h
+-
+unistd.h
+-
+assert.h
+-
+stdarg.h
+-
+sys/stat.h
+-
+sys/syscall.h
+-
+
+/home/jena/HttpServer/utility/Logger/Logger.h
+stdio.h
+-
+string.h
+-
+stdint.h
+-
+stdlib.h
+-
+pthread.h
+-
+time.h
+-
+sys/time.h
+-
+sys/types.h
+-
+
